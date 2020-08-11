@@ -19,4 +19,4 @@ jobs: # a collection of steps
           command: snyk auth $SNYK_TOKEN
       - run: # run snyk test - run snyk test
           name: snyk test
-          command: snyk test --debug
+          command: snyk test --command=python3
