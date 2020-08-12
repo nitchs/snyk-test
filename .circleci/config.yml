@@ -7,5 +7,5 @@ jobs:
       - run: npm install -q
       - snyk/scan
 orbs:
-  snyk: snyk/snyk@x.y.z
+  snyk: snyk/snyk@0.0.10
 version: 2.1
